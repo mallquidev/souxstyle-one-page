@@ -6,16 +6,14 @@ import one1 from '../../assets/producto/one1.jpeg';
 import one2 from '../../assets/producto/one2.jpeg';
 import one3 from '../../assets/producto/one3.jpeg';
 import one4 from '../../assets/producto/one4.jpeg';
-import one5 from '../../assets/producto/one5.jpeg';
-import one6 from '../../assets/producto/one6.jpeg';
+
 
 import two from '../../assets/producto/two.jpeg';
 import two1 from '../../assets/producto/two1.jpeg';
 import two2 from '../../assets/producto/two2.jpeg';
 import two3 from '../../assets/producto/two3.jpeg';
 import two4 from '../../assets/producto/two4.jpeg';
-import two5 from '../../assets/producto/two5.jpeg';
-import two6 from '../../assets/producto/two6.jpeg';
+
 
 import 'react-image-gallery/styles/css/image-gallery.css';
 import whatsap from '../../assets/whatsap.svg'
