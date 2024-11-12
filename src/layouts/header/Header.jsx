@@ -14,23 +14,35 @@ function Header() {
                 <div className="container mx-auto px-4 py-4 flex justify-between items-center">
                     {/* Logo */}
                     <div className="flex items-center">
-                        <img 
-                            src={logo} 
-                            alt="Logo" 
-                            className="h-8 md:h-12 w-auto object-contain" 
+                        <img
+                            src={logo}
+                            alt="Logo"
+                            className="h-8 md:h-12 w-auto object-contain"
                         />
                     </div>
 
                     {/* Desktop Nav Links */}
                     <nav className="hidden md:flex space-x-8">
-                        <a href="/" className="text-gray-700 border-b-2 border-transparent hover:border-black transition duration-200">
+                        <a className="text-gray-700 border-b-2 border-transparent hover:border-black transition duration-200 cursor-pointer"
+                            onClick={() => {
+                                document.getElementById('nosotros').scrollIntoView({ behavior: 'smooth' });
+                            }}
+                        >
                             Nosotros
                         </a>
-                        <a href="/" className="text-gray-700 border-b-2 border-transparent hover:border-black transition duration-200">
+                        <a className="text-gray-700 border-b-2 border-transparent hover:border-black transition duration-200 cursor-pointer"
+                            onClick={() => {
+                                document.getElementById('categoria').scrollIntoView({ behavior: 'smooth' });
+                            }}
+                        >
                             Categoría
                         </a>
-                        <a href="/" className="text-gray-700 border-b-2 border-transparent hover:border-black transition duration-200">
-                            Contacto
+                        <a className="text-gray-700 border-b-2 border-transparent hover:border-black transition duration-200 cursor-pointer"
+                            onClick={() => {
+                                document.getElementById('producto').scrollIntoView({ behavior: 'smooth' });
+                            }}
+                        >
+                            Producto
                         </a>
                     </nav>
 

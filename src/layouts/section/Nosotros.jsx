@@ -3,7 +3,7 @@ import modelo from '../../assets/modelo.png';
 function Nosotros() {
     return (
         <>
-            <article className="relative pt-24 bg-black text-white">
+            <article className="relative pt-24 bg-black text-white" id='nosotros'>
                 {/* Imagen centrada y responsive */}
                 <img
                     src={modelo}
@@ -25,8 +25,12 @@ function Nosotros() {
 
                     {/* Botón */}
                     <div className="mt-6 md:mt-0 md:mr-14">
-                        <button className="bg-white text-black px-10 py-4 md:px-20 md:py-8 rounded-full text-sm md:text-base lg:text-lg hover:bg-gray-400">
-                            Mirar
+                        <button className="bg-white text-black px-10 py-4 md:px-20 md:py-8 rounded-full text-sm md:text-base lg:text-lg hover:bg-gray-400"
+                            onClick={() => {
+                                document.getElementById('producto').scrollIntoView({ behavior: 'smooth' });
+                            }}
+                        >
+                            Ver
                         </button>
                     </div>
                 </div>
