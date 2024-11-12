@@ -98,9 +98,9 @@ function Header() {
                 {isOpen && (
                     <div className="md:hidden bg-white shadow-md">
                         <nav className="flex flex-col items-start p-4 space-y-2">
-                            <a href="/" className="text-gray-700 hover:text-blue-500">Nosotros</a>
-                            <a href="/" className="text-gray-700 hover:text-blue-500">Categoría</a>
-                            <a href="/" className="text-gray-700 hover:text-blue-500">Contacto</a>
+                            <a href="#nosotros" className="text-gray-700 hover:text-blue-500">Nosotros</a>
+                            <a href="#categoria" className="text-gray-700 hover:text-blue-500">Categoría</a>
+                            <a href="#producto" className="text-gray-700 hover:text-blue-500">producto</a>
                             <button
                                 aria-label="Buscar"
                                 className="text-gray-700 hover:text-blue-500 focus:outline-none flex items-center"
